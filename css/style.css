@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f1f1;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #00a859;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  z-index: 10;
+}
+
+#map {
+  margin-top: 60px;
+  height: 230px;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+}
+
+li {
+  background: #fff;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+li.entregue {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.card-btn {
+  display: block;
+  margin-top: 8px;
+  padding: 10px;
+  background: #00a859;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #00a859;
+  color: white;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.5);
+}
+
+.modal-content {
+  background: white;
+  margin: 30% auto;
+  padding: 15px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.cancel {
+  background: #ccc;
+}
+
+.num {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+.num.green {
+  background: #00a859;
+}
+
+.num.red {
+  background: #d9534f;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #555;
+}
+.modal-content {
+  position: relative;
+}
+
+.proxima {
+  border: 2px solid #00a859;
+  background: #e9f7ef;
+}
+
+#relatorio .modal-content p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.modal {
+  z-index: 10000;
+}
